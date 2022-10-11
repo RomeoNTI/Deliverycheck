@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-color: #FF8381;
+}
+
+.buttons{
+    float: right;
+    width: 300px;   
+    height: 50px;
+    position: relative;
+    top: 25px;
+
+}
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    margin-right: - 100px ;
+    top: 7px;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #FDAE38;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #01ff01;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  body{
+    text-align: center; 
+    background-color: #FDAE38;
+    background-size: cover;  
+}
+.logo{
+  top: 10px;
+  position: absolute;
+  float: left;
+  margin-left: -300px;
+}
+  .banner-area{
+    width: 100%;
+    height: 1000px;
+  }
+
+.content-area{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 270px;
+  width: 60%;
+  height: 75px;
+  background-color: whitesmoke;
+  border-radius: 50px;
+  border: 2px solid #222222;
+}
+p{
+  top: 17px;
+  margin-left: 20px;
+  position: absolute;
+  font-size: 30px;
+}
+footer{
+  width: 100%;
+  height: 200px;
+  background-color: #886E98;
+  border-radius: 40px 40px 0px 0px;
+  
+}
+.logos{
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 200px;
+}
+.tillgang{
+    margin-left: -200px;
+    position: absolute;
+    height: 50px;
+    width: 200px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+  }
+  
